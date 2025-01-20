@@ -1,4 +1,4 @@
-package com.example.multidb;
+package com.example.multidb.config;
 
 
 import jakarta.persistence.EntityManagerFactory;

@@ -1,4 +1,4 @@
-package com.example.multidb;
+package com.example.multidb.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.jdbc.DataSourceBuilder;
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Primary;
 import javax.sql.DataSource;
 
 @Configuration
-public class Config {
+public class DataSourceConfig {
 
     @Bean(name = "mysqlDatasource")
     @Primary
